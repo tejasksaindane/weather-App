@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <center>
+        <form>
+          <div class="form-group">
+            <lottie-player
+              class="lottie"
+              src="https://assets4.lottiefiles.com/packages/lf20_kljxfos1.json"
+              background="transparent"
+              speed="1"
+              style="width: 250px; height: 250px"
+              loop
+              autoplay
+            >
+            </lottie-player>
+            <input type="text" id="inputValue" />
+          </div>
+          <button type="submit" id="search" onclick="generateCity()">
+            Search a city
+          </button>
+        </form>
+        <div>
+          <h1 id="outofcity"></h1>
+          <p id="desc"></p>
+        </div>
+        <div class="jack">
+          <img class="img" src="684908.png" alt="" width="35px" height="35px" />
+          <h1 id="name"></h1>
+          <br />
+        </div>
+        <div class = "sparrow">
+        <h2 id="temperature"></h2>
+        <p class = "degcel"> &#176 C</p>
+      </div>
+      <div> <p id="description"></p></div>
+      </center>
+    </div>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

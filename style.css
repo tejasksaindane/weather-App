@@ -1,0 +1,113 @@
+body {
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  margin: auto;
+}
+.container {
+  display: flex;
+  margin-top: 100px;
+  width: 800px;
+  height: 500px;
+  /* background:#007bff; */
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+  transition: all 2s ease-in;
+}
+.container:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+/* .container {
+        width: 800px;
+        height: 430px;
+        background: white;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top: 10%;
+        letter-spacing: 0.2px;
+        text-align: center;
+        word-wrap: break-word;
+        border-radius: 15px;
+        box-shadow: 5px 5px 7px 5px black;
+        padding: 20px;
+        overflow-x: hidden;
+        font-family: "Akaya Telivigala", cursive;
+        transition: all 2s ease-in-out;
+} */
+
+#inputValue {
+  margin-top: -20px;
+  width: 600px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  outline: none;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+#search {
+  margin-top: 15px;
+  color: #fff;
+  background-color: #08131f;
+  outline: none;
+  min-height: 38px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+.lottie {
+  margin-top: -90px;
+  margin-bottom: 1px;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+}
+#name {
+  display: flex;
+}
+.jack {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.sparrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -25px;
+}
+.degcel {
+  font-size: 22px;
+}
+#description {
+  font-size: 25px;
+  margin-top: -15px;
+  color: #ffeaa7;
+}
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  /* @media (min-width:320px && max-width:480px){ */
+  .container {
+    width: 300px;
+  }
+  #inputValue {
+    width: 270px;
+  }
+}
